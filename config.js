@@ -2,8 +2,8 @@ var rc = require("rc");
 
 var defaults = {
     aws: {
-        accessKeyId: "",
-        secretAccessKey: ""
+        accessKeyId: "AKIAIUCT6GNTVDMWFZIQ",
+        secretAccessKey: "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"
     },
 
     log4js: {
@@ -22,8 +22,7 @@ var defaults = {
             {region:'cn-north-1',suffix:'.cnn1',access:'',secret:''}
         ],
         buckets: [
-            {src:'srcbucket',srcprefix:'srcfolder/',srcregion:'us-west-2',dest:'destbucket_prefix',destprefix:'destfolder/',destregions:["us-west-2","eu-west-1","cn-north-1"]},
-            {src:'srcbucket2',srcprefix:'srcfolder2/',srcregion:'us-east-1',dest:'destbucket_prefix',destprefix:'destfolder2/',destregions:["us-east-1","eu-west-1"]},
+            {src:'destiny-private',srcprefix:'/',srcregion:'us-west-2',dest:'destiny-backup',destprefix:'private-backup/',destregions:["us-west-2","eu-west-1","cn-north-1"]},
         ]
     }
 
